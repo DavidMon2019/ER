@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TIENDAS_LOGICO" id="3FBCAAAC-D016-37F5-D606-8FA1FE0FCDB1" version="3.5">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-25 04:36:05 UTC</createdTime>
+<ownerDesignName>TIENDAS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3FBCAAAC-D016-37F5-D606-8FA1FE0FCDB1</designId>
+</OSDM_Design>

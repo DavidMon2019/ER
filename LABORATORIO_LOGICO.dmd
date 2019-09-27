@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="LABORATORIO_LOGICOL" id="D0E0F586-4459-DAE6-3879-39187E90C14D" version="3.5">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 09:27:38 UTC</createdTime>
+<ownerDesignName>laboratorioPintura</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D0E0F586-4459-DAE6-3879-39187E90C14D</designId>
+</OSDM_Design>
