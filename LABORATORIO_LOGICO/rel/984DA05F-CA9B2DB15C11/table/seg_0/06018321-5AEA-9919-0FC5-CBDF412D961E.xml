@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06018321-5AEA-9919-0FC5-CBDF412D961E" name="LABORATORIO">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>32E9F343-66F6-AA21-351E-E8FF0D3D6CEF</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LABORATORIO" id="25B8EDD4-8B9E-8131-F67D-84AAE00D7BFB">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>3A285E70-F188-0068-550A-0A174183B5BE</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="2CBF2CBD-EB8F-6289-376A-D1E7BC481C58">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>AAD04236-8FC6-BB28-4BDC-AB740DF46CBF</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="200CCA54-5ED8-859E-78C3-FEDC523822DA">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>5272F0A4-53B7-59B1-402C-BA4E4F08F44F</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36AA5BB9-7F4C-A6FC-CCF2-4F33627923AE" name="LABORATORIO_PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>99616CEC-16E7-5CF5-4CBE-D4A8F6D7696E</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25B8EDD4-8B9E-8131-F67D-84AAE00D7BFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

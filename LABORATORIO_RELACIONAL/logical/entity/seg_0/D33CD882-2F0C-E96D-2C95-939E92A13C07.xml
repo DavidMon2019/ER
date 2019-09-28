@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D33CD882-2F0C-E96D-2C95-939E92A13C07" name="CARGO">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 11:34:57 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CARGO" id="E0A4AB1B-CCF8-87B1-A74B-E1E02E36045B">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 11:35:07 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_CARGO" id="0AE4DD2D-F50B-A768-A24E-01E66DD8EFBB">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 11:35:26 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPLEADO" id="D9A3513B-D9C3-0DD9-5AA5-1FD0B1B7E486">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 11:36:52 UTC</createdTime>
+<generatorID>FA849E1D-D0BF-73A9-27A7-179FB89C5919</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<referedAttribute>73692602-C3ED-A774-FF79-47E662F506B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_EMPLEADO1" id="6403F38B-C3A8-8045-8F8E-69BFB885F45B">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:26:35 UTC</createdTime>
+<generatorID>B8DFC0C9-CBDB-EC6C-4CB8-156BC77EDE89</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<referedAttribute>73692602-C3ED-A774-FF79-47E662F506B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25A79768-E7A5-55CD-1EC3-1966A300D42B" name="CARGO PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 11:35:24 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0A4AB1B-CCF8-87B1-A74B-E1E02E36045B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

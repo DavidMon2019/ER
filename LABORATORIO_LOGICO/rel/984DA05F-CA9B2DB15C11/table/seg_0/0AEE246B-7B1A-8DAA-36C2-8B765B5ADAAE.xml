@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AEE246B-7B1A-8DAA-36C2-8B765B5ADAAE" name="Relation_18">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATERIA_PRIMA_ID_MATERIA_PRIMA" id="5A2AF4FA-5113-2B14-B865-55802E55DAB8">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FAFFAE5-564B-943F-3BE8-34ED477E8F91" referredColumn="DED1D5B1-EA9B-4F40-9761-F0EDA56DABEB"/>
+</associations>
+</Column>
+<Column name="PROVEEDORES_ID_PROVEEDOR" id="46441464-8C6D-DD74-B064-6AD6B6048DB2">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FB0D9AC-E129-6AD1-A05E-9E5A817CDA98" referredColumn="2C0FEE82-6B33-C469-E22F-CCAACEA87307"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7E336DA-E254-F449-C9FD-250658DFB970" name="Relation_18_PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A2AF4FA-5113-2B14-B865-55802E55DAB8"/>
+<colUsage columnID="46441464-8C6D-DD74-B064-6AD6B6048DB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="393A14BC-18E7-8495-08A7-AD9D4D192F67" name="Relation_18_MATERIA_PRIMA_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>1779948F-1C04-A829-AF1E-CDA6A552C7BE</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A2AF4FA-5113-2B14-B865-55802E55DAB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E88FA01E-4AE3-BBFF-E20B-D4DDF04AE6E1" name="Relation_18_PROVEEDORES_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>1779948F-1C04-A829-AF1E-CDA6A552C7BE</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46441464-8C6D-DD74-B064-6AD6B6048DB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

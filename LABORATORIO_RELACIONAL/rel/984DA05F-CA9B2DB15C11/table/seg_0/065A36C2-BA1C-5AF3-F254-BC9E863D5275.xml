@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="065A36C2-BA1C-5AF3-F254-BC9E863D5275" name="DEPARTAMENTO">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>3B66D44D-4A9E-F63D-64FC-FD3EFFED99CC</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DEPARTAMENTO" id="0E03C753-DD82-20EE-5FDD-C6DD5D2BDA9E">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>9D611319-DC73-39D3-F53C-3E823ECFE967</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="FED78794-3C8D-A243-26A9-728A12C245F6">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>A538F7BB-FADC-C5F1-1275-6FA721F0B17C</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ENCARGADO" id="8E260062-6A28-3277-5DF8-CBF37147A57E">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>994E861B-09F3-BC2A-A659-D263F0D2775F</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LABORATORIO" id="2188AAD7-2FCC-F646-C03B-75178ADB8514">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>6AF37B7A-B52D-F1F3-519C-6237500FCD63</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LABORATORIO_ID_LABORATORIO" id="D23D5FE8-1B91-0B4B-9EA1-6A3D7A157005">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>2EB70B5D-8C0E-BF34-C8C8-56E6F12AA299</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="521DA9FD-1192-FABC-2593-79B636792E45" referredColumn="25B8EDD4-8B9E-8131-F67D-84AAE00D7BFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4305DF94-799B-3847-DB2D-A6AA3DF3A9C0" name="DEPARTAMENTO_PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>4E5D075B-EBA4-94D2-27D6-07A2195A1F76</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E03C753-DD82-20EE-5FDD-C6DD5D2BDA9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E605124-B824-9A9C-326D-7F0C809162B1" name="DEPARTAMENTO_LABORATORIO_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>A7AB38FA-4722-DC7E-550B-97B442876B00</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D23D5FE8-1B91-0B4B-9EA1-6A3D7A157005"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

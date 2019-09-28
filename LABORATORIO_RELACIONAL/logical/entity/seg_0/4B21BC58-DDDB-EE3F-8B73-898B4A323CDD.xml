@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B21BC58-DDDB-EE3F-8B73-898B4A323CDD" name="PROCESO">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 03:36:18 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PROCESO" id="C8ACD6C8-4FB2-12B0-C6E9-5D5430BEAA77">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 03:37:06 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_PROCESO" id="90F04BE1-C2EC-1861-CC0D-EEA631ACECAC">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 03:37:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DEPARTAMENTO" id="A84F1EF3-9D9E-A0A7-BDDD-583212098E36">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:26:29 UTC</createdTime>
+<generatorID>95836966-8BD2-D617-28CD-8965A15ACCC3</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<referedAttribute>9D611319-DC73-39D3-F53C-3E823ECFE967</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1D96EEE-CB39-F1B7-284F-43CD7367DAD5" name="PROCESO PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 03:37:21 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C8ACD6C8-4FB2-12B0-C6E9-5D5430BEAA77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

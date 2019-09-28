@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF15764E-C392-2632-0AEC-5A17011F0088" containerWithKeyObject="29F59B7D-4E18-AB52-4057-BD2765CEB3C9" localFKIndex="F3BF4920-53E9-5C07-1E10-46ECD33FF817" name="MATERIA_PRIMA_PINTURA_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>3C7B1280-D98C-ECFD-CB9E-4896EE89393F</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<referredTableLongName>PINTURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>319D6398-592F-2CDA-03F4-A0A7DA93897D</referredTableID>
+<keyObject>9C873B1C-5738-55DD-8B41-0394D79F0471</keyObject>
+<referredKeyID>9C873B1C-5738-55DD-8B41-0394D79F0471</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PINTURA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

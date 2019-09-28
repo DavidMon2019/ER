@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5E7FA04-A3C7-3584-B6D8-B83B7406F700" name="PROVEEDORES">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:44:23 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PROVEEDOR" id="1CB7539C-ED3D-3E00-8922-F37C0F1A446F">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:44:38 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="CB0979A1-62A7-0506-BD66-421C76253951">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:44:56 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="0171FAD8-E1DA-085E-F063-B80E29670CF4">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:45:04 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="A6DC3784-1F80-6361-7419-9CE2CCDAE5E1">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:45:26 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT" id="10E4C227-2460-24A2-1963-6DDBA9FB647E">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:45:52 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B16F6EA-2E7A-3E6B-048C-DE85312F9A4B" name="PROVEEDORES PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:44:55 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CB7539C-ED3D-3E00-8922-F37C0F1A446F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

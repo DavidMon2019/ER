@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA3CDBC1-E6F7-31B6-5886-70B02FF1E681" name="Relation_20">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LABORATORIO_ID_LABORATORIO" id="2C306968-ED5C-1AD8-AD40-4D5FEAAEC132">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC68F1F9-20BC-D223-2491-28C06AED7547" referredColumn="25B8EDD4-8B9E-8131-F67D-84AAE00D7BFB"/>
+</associations>
+</Column>
+<Column name="PROVEEDORES_ID_PROVEEDOR" id="D264D5A1-7F9B-79A4-96F7-4A333246466E">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="448BB74A-0CB6-3A03-08A1-B01978566F9C" referredColumn="2C0FEE82-6B33-C469-E22F-CCAACEA87307"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB6149CA-1D10-0BD4-7A4E-98EEE4E4F7FE" name="Relation_20_PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C306968-ED5C-1AD8-AD40-4D5FEAAEC132"/>
+<colUsage columnID="D264D5A1-7F9B-79A4-96F7-4A333246466E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCB39BA7-4382-8E7B-6E7B-D98C2999D50A" name="Relation_20_LABORATORIO_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>E0CE9720-3813-228A-08DC-AEBFA69D2BA2</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C306968-ED5C-1AD8-AD40-4D5FEAAEC132"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A07BC4AE-9047-EBB2-0962-7EBA7035D0B7" name="Relation_20_PROVEEDORES_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>E0CE9720-3813-228A-08DC-AEBFA69D2BA2</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D264D5A1-7F9B-79A4-96F7-4A333246466E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

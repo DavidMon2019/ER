@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29F59B7D-4E18-AB52-4057-BD2765CEB3C9" name="MATERIA_PRIMA">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>7D0FEC8A-5592-6A56-B17B-1CA880CB0CCB</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MATERIA_PRIMA" id="DED1D5B1-EA9B-4F40-9761-F0EDA56DABEB">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>E44411BF-349A-04E3-8875-D574A360B201</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="A0F56B70-7ABA-C926-68EC-5BFFA34181D1">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>9DB553BC-B8AF-5153-1D46-2716917DEEAF</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="6C2CD106-FBE6-28DD-9366-341F0BEFEC92">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>C43F3852-B87B-54BD-D5EA-D2F6BAB1F971</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PINTURA_ID_PINTURA" id="1721D731-5678-3746-E93A-2715BA9662FE">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>A0AF11CB-8C3A-BD5D-D883-78804F5B3EC8</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF15764E-C392-2632-0AEC-5A17011F0088" referredColumn="5D84A9D4-0324-6F37-D43F-1F0A778CA18E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFA1C15D-06B9-3F61-FE9C-795916E75B4E" name="MATERIA_PRIMA_PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>E508C95B-59CB-7D31-75B6-C71AD9C617FE</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DED1D5B1-EA9B-4F40-9761-F0EDA56DABEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3BF4920-53E9-5C07-1E10-46ECD33FF817" name="MATERIA_PRIMA_PINTURA_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>3C7B1280-D98C-ECFD-CB9E-4896EE89393F</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1721D731-5678-3746-E93A-2715BA9662FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

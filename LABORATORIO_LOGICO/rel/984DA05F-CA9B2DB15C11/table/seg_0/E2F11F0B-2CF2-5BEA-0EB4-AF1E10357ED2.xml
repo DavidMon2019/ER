@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2F11F0B-2CF2-5BEA-0EB4-AF1E10357ED2" name="EMPLEADO">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>30503582-0BCD-6DDA-0D7C-00DDB65D4BD8</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPLEADO" id="3EE5A9F7-0591-14A6-F294-37FC34D85284">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>73692602-C3ED-A774-FF79-47E662F506B5</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="3E6B1C60-4E9F-D2FE-C3D8-8B3E7CF34FA0">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>5ECE0EE9-3852-83D8-F0C8-5943047F5F8F</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="0361C3DD-0E6C-C23D-B3C4-6C32D99D09C4">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>601744C3-24F8-C4F3-2CE6-E3C6B4BEAED6</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="B57CB4DE-30D9-DBBF-2D2C-E585660BC94F">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>513CBAC5-28AF-B260-DB4B-8A5BB8031C59</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="4D3E8013-DDE2-48BE-C281-89E3A26D1EFB">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>0709F5DB-6A03-F6BE-CBC1-572BEC46FD6D</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="95552468-90B8-1BC8-1C19-7B30D269DCCF">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>2820A2E4-B471-711C-F8B8-84F39662B174</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="95B3BA1C-9848-A8EF-65FE-65CC451AF1C0">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>1BC97622-61A4-7ADD-A7C9-41B0838906C4</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_ID_DEPARTAMENTO" id="79B40D90-0E1D-CA1E-5AD7-4D35000742EC">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>7931D2A4-B244-FA58-D2D6-3572B0FA57C2</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4399E394-6857-35F7-2627-B058FBB246C0" referredColumn="0E03C753-DD82-20EE-5FDD-C6DD5D2BDA9E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="787D61EA-05DC-9A7F-F27D-989DB0E1F486" name="EMPLEADO_PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>824356F1-42EB-E066-FD67-561B8D0A05AA</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EE5A9F7-0591-14A6-F294-37FC34D85284"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A4A17AF-E367-8FEF-284A-08DE824B1EDD" name="EMPLEADO_DEPARTAMENTO_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>D1987924-DD28-0777-667B-398F7F83C662</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79B40D90-0E1D-CA1E-5AD7-4D35000742EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B66D44D-4A9E-F63D-64FC-FD3EFFED99CC" name="DEPARTAMENTO">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 10:08:34 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_DEPARTAMENTO" id="9D611319-DC73-39D3-F53C-3E823ECFE967">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 10:08:48 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="A538F7BB-FADC-C5F1-1275-6FA721F0B17C">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 10:09:03 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENCARGADO" id="994E861B-09F3-BC2A-A659-D263F0D2775F">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 10:09:44 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LABORATORIO" id="6AF37B7A-B52D-F1F3-519C-6237500FCD63">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 11:26:05 UTC</createdTime>
+<generatorID>F483A559-B359-82DD-3CA3-19FA2823FD42</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<referedAttribute>3A285E70-F188-0068-550A-0A174183B5BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LABORATORIO1" id="2EB70B5D-8C0E-BF34-C8C8-56E6F12AA299">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:26:22 UTC</createdTime>
+<generatorID>A7AB38FA-4722-DC7E-550B-97B442876B00</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="true"/>
+</engineerTo>
+<referedAttribute>3A285E70-F188-0068-550A-0A174183B5BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E5D075B-EBA4-94D2-27D6-07A2195A1F76" name="DEPARTAMENTOS PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-27 11:26:10 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="984DA05F-165E-D772-1948-CA9B2DB15C11" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D611319-DC73-39D3-F53C-3E823ECFE967</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

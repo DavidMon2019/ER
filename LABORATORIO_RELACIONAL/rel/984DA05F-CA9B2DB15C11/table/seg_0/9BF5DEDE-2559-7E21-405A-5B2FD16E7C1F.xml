@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BF5DEDE-2559-7E21-405A-5B2FD16E7C1F" name="PROCESO">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>4B21BC58-DDDB-EE3F-8B73-898B4A323CDD</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROCESO" id="ECD4DF65-7866-C06F-A4FF-8384107347AD">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>C8ACD6C8-4FB2-12B0-C6E9-5D5430BEAA77</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROCESO" id="DABB5178-CA4A-7FD2-4EA8-2545F2494E17">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>90F04BE1-C2EC-1861-CC0D-EEA631ACECAC</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_ID_DEPARTAMENTO" id="01939DD0-D491-213A-4C92-9C6687A3D2D4">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>A84F1EF3-9D9E-A0A7-BDDD-583212098E36</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF461BBD-6E03-BC40-C886-3459424AFCE8" referredColumn="0E03C753-DD82-20EE-5FDD-C6DD5D2BDA9E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE022BD9-E006-8199-3FB0-F7030D66EDC1" name="PROCESO_PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>C1D96EEE-CB39-F1B7-284F-43CD7367DAD5</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECD4DF65-7866-C06F-A4FF-8384107347AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDBBA71F-5238-BF33-E67D-4D2B12A2CCF3" name="PROCESO__IDX">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>95836966-8BD2-D617-28CD-8965A15ACCC3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="01939DD0-D491-213A-4C92-9C6687A3D2D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B923A3E-422A-010A-C806-67D2ACB23C67" name="PROCESO_DEPARTAMENTO_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>95836966-8BD2-D617-28CD-8965A15ACCC3</generatorID>
+<ownerDesignName>LABORATORIO_RELACIONAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01939DD0-D491-213A-4C92-9C6687A3D2D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

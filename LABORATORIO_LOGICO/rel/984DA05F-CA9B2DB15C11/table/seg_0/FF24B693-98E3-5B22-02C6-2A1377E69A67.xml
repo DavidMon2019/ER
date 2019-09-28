@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF24B693-98E3-5B22-02C6-2A1377E69A67" name="CARGO">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>D33CD882-2F0C-E96D-2C95-939E92A13C07</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARGO" id="5FE34823-522B-7E41-85A8-24B02F0ADB0D">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>E0A4AB1B-CCF8-87B1-A74B-E1E02E36045B</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CARGO" id="96C0B67B-9F36-BAD6-3F11-794E39A1D418">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>0AE4DD2D-F50B-A768-A24E-01E66DD8EFBB</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EMPLEADO" id="63E861A1-FE34-2157-E4FE-92ED6C185785">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>D9A3513B-D9C3-0DD9-5AA5-1FD0B1B7E486</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_ID_EMPLEADO" id="B3D32924-214E-D326-5A92-87EC22122B86">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>6403F38B-C3A8-8045-8F8E-69BFB885F45B</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F71C426-41B5-2734-4A07-B5938F453090" referredColumn="3EE5A9F7-0591-14A6-F294-37FC34D85284"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56F7BFA6-69EF-71C3-F14D-D3BFCB6679BB" name="CARGO_PK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>25A79768-E7A5-55CD-1EC3-1966A300D42B</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FE34823-522B-7E41-85A8-24B02F0ADB0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5C1163A-28A4-E1FD-7E80-7B38C571C619" name="CARGO__IDX">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B8DFC0C9-CBDB-EC6C-4CB8-156BC77EDE89</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B3D32924-214E-D326-5A92-87EC22122B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="019A2B98-4990-023E-0784-73A72BB003F6" name="CARGO_EMPLEADO_FK">
+<createdBy>David</createdBy>
+<createdTime>2019-09-28 04:54:33 UTC</createdTime>
+<generatorID>B8DFC0C9-CBDB-EC6C-4CB8-156BC77EDE89</generatorID>
+<ownerDesignName>LABORATORIO_LOGICOL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3D32924-214E-D326-5A92-87EC22122B86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
