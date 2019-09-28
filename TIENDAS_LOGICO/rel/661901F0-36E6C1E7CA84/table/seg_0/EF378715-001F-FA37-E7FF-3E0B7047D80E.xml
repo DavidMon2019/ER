@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF378715-001F-FA37-E7FF-3E0B7047D80E" name="Rango">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>60133850-2FE0-D525-8784-5D7812622EBE</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCargo" id="166277C2-8FA2-3785-CC69-1570147DA61D">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>A3E18ADF-F7E1-B1EE-311D-D411DAC1042C</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargo" id="F659842E-84A0-DEEF-D204-F5819A7BC68E">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>9BDC4B3E-A36B-0329-C826-18D475AE7EB6</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescCargo" id="E62751CE-1D91-118F-D5B9-312C3C2D1389">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>884206A9-3050-AA04-71CD-2C40BAE7D759</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65C9B7C1-50BF-0817-689B-6E3F4808E64C" name="Rango_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>15A7F761-C228-DCCF-DEBC-C0D64FACF73E</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="166277C2-8FA2-3785-CC69-1570147DA61D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

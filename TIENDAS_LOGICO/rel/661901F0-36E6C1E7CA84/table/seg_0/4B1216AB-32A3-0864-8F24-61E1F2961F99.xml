@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B1216AB-32A3-0864-8F24-61E1F2961F99" name="RVenta">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>E1F4EA0E-6286-EF46-F470-9C40F3AAC2BF</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Monto" id="418B3513-996F-8031-8B07-2501032B7BF2">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>D1FFA625-AA9D-E904-6CF7-89D1D901DDE8</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoPago_idTipoPago" id="3C8DF71A-7C26-9224-D8CF-8BE2A5F6A622">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>204587E3-7FDD-FC61-A09D-14D566BA912F</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CBACB76-11D1-5C72-3614-3177BB6CCB37" referredColumn="153961B8-EE19-F2F4-06F7-B9C9092A3DE0"/>
+</associations>
+</Column>
+<Column name="RVenta_ID" id="97484979-EEA8-339F-AEB8-0396846DB573">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C63DEA6C-ABC6-31BD-02B0-42F847E945F8" name="RVenta_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="97484979-EEA8-339F-AEB8-0396846DB573"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE38C03E-344F-1606-02A5-B3C3093D6425" name="RVenta_TipoPago_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>64A06441-D069-573C-C817-E728147E8276</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C8DF71A-7C26-9224-D8CF-8BE2A5F6A622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5730549-D031-11B9-3489-5B9041B3FA9D" name="TipoPago">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>15F33470-821E-53E3-D850-FCAEB9CAE047</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTipoPago" id="153961B8-EE19-F2F4-06F7-B9C9092A3DE0">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>E97DE77D-B75C-1254-2256-D3ADFE325E61</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipoPago" id="14FA9E29-FC30-1AC2-2393-463B7471692C">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>0CD95334-31A3-FDB4-779A-AF32829F61D0</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescTipoPago" id="EEA62281-D641-F72C-F9A8-11BB177B183B">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>22873E9F-363C-1C7F-C41F-8FB4B4600CF0</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A87058CB-1EF6-D60B-A227-8FC7EDC14D36" name="TipoPago_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>5C2D7B03-425E-2155-CBA8-7BBDAD25E146</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="153961B8-EE19-F2F4-06F7-B9C9092A3DE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61A5A8B6-749A-7F11-A1EB-26AF716C938C" name="Proveedor">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>791F2EE4-ECFA-9316-00EB-7231AA853C57</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProveedor" id="65CF0B9F-1254-1153-8798-ACFC593BDA3F">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>36CA0A5A-A7EC-1044-A61F-89B55D68B236</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT" id="4FEC315F-D807-5BB7-9A45-F6F81F5D7C70">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>5668AE7D-8978-5EAF-45C6-7AB211562764</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DireccionProveedor" id="C9344256-D703-C9E3-6D62-F27B3B610777">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>2E630542-A93A-56D1-AFEA-27DFE19F15A8</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TelefonoProveedor" id="03B8FD36-1BDC-512F-102B-B48F1B651D0E">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>7920157E-FB18-1E62-8B9F-4A13A4373910</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GiroComercial" id="5DEBE9B6-C0D9-C9E7-8B10-CDD74BF14E8C">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>49138BA6-DA10-1D64-4D1D-6F9BE319A1EC</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="245B645C-EB4F-28B1-BC09-C1DAB55D9321" name="Proveedor_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>0172CDE8-83DD-2BE6-F0D9-056161CE9B29</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65CF0B9F-1254-1153-8798-ACFC593BDA3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

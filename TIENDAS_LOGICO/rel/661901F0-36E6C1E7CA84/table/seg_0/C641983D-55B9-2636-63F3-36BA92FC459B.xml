@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C641983D-55B9-2636-63F3-36BA92FC459B" name="Ticked">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>A312114B-41DE-D779-0F91-0A01D18B0D53</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTicked" id="30B1B715-596D-12E5-9D7D-F5E0BF1A91B7">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>F21EA54C-FBF3-C302-0E7E-3828BF3DFFF9</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaVenta" id="9B04712D-02E9-962E-B0DA-09DCCAAA0F52">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>82776BB2-0F07-FEEF-D4FB-404FCB3BCBC5</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MontoTotal" id="0C4B2345-B14E-EECA-A521-5A7C6B077A57">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>E8480ED3-513E-03E1-04AC-22DF9DA305A4</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Factura_idFcatura" id="C4F4F408-75CE-C798-CB80-B5BEFC36F79D">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>BE1FE0CD-9B6D-5751-F510-322509BE3A33</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4142D899-89CC-0788-5684-C7863E49E0EC" referredColumn="F47C89D4-DE7E-CB8D-395E-25D225E55497"/>
+</associations>
+</Column>
+<Column name="Cambio_Devolucion_idDevolucion" id="BB346C52-BC5A-3A5E-DBD1-0BF1148F80EE">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>A656D9B7-BE29-90A7-66F0-5CE10863F8B3</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4673374F-3D64-7A3B-BEB0-A9D86B79EFA3" referredColumn="9CE43D39-168E-AB80-66D0-08AAFD12098A"/>
+</associations>
+</Column>
+<Column name="RVenta_RVenta_ID" id="9881E5CD-68B9-740B-A164-374D2E097796">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BB266DE-F1EA-1432-B371-98CDB6543BE2" referredColumn="97484979-EEA8-339F-AEB8-0396846DB573"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E67769F5-D75C-A780-6CC8-860CD63B24F4" name="Ticked_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>63630092-BBFA-092F-1DDE-1E2F5BCA30C2</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30B1B715-596D-12E5-9D7D-F5E0BF1A91B7"/>
+<colUsage columnID="C4F4F408-75CE-C798-CB80-B5BEFC36F79D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A17AE25-79F0-EEEC-2917-8A099199641D" name="Ticked_Cambio_Devolucion_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>3BF728EF-2DBD-F284-FADA-7D9B673C2768</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB346C52-BC5A-3A5E-DBD1-0BF1148F80EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE4F6400-143D-569E-A821-D8BFD3BC3070" name="Ticked_RVenta_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>2A49FB5E-2A2B-E028-F31C-25BDD1563D6E</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9881E5CD-68B9-740B-A164-374D2E097796"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7A7B8A3-AA18-21B9-C8CB-1BF688AFCC1F" name="Ticked_Factura_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>73392D5B-5844-8944-B22B-43950002B003</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4F4F408-75CE-C798-CB80-B5BEFC36F79D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

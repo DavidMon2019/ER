@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5ECECCD-A731-F72A-67A4-0A5314BFFE82" name="Inventario">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>96B2F391-FF03-3B63-1610-8AA8C537444A</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Existencias" id="9AB69319-7EA0-5C30-F19F-A31C950EAA91">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>B84FB890-0052-1474-28A5-CE3496FCBD16</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Promociones_idPromocion" id="C6A78E33-8C17-0D94-38C6-C4B4D43E3F6B">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>7F4D31C5-9568-1078-247E-060A517D088A</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEF30CBC-9029-8A8A-F364-B80FD12450A2" referredColumn="FB033264-E3DC-B4A2-874E-F0A32DAB7B68"/>
+</associations>
+</Column>
+<Column name="Producto_idProducto" id="C5C56CA5-9455-4A7C-13FC-82E63EDE0CB8">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>5F946266-2F0C-ED86-6F7A-90AF00821360</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CB87679-6901-07E7-3D7F-E73C60B831C6" referredColumn="F753AA2A-7162-443C-2546-78EA17AD62BA"/>
+</associations>
+</Column>
+<Column name="Proveedor_idProveedor" id="14595C6C-F94B-FE8D-E427-641111449C3A">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>84758ED1-FF9B-393F-129A-0FDF10810A4F</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1E02250-B089-F90F-711A-44D1C48E77D6" referredColumn="65CF0B9F-1254-1153-8798-ACFC593BDA3F"/>
+</associations>
+</Column>
+<Column name="Tienda_idTienda" id="B00222AB-FB82-E87B-CA44-A4620CC4C62B">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>29276A78-86A9-D5F9-DD97-EC335F2A5C3A</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19376350-948B-42E5-5004-090FD19C451A" referredColumn="8EC46CBC-E0F4-C0A2-0285-443D654A0ACD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADD47878-1C25-D852-E08A-5F90DD133039" name="Inventario_PK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>1E46F5E8-F991-8F33-A028-76AC8E09F661</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B00222AB-FB82-E87B-CA44-A4620CC4C62B"/>
+<colUsage columnID="C6A78E33-8C17-0D94-38C6-C4B4D43E3F6B"/>
+<colUsage columnID="14595C6C-F94B-FE8D-E427-641111449C3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9CC228C-E8DE-50A0-7998-6C38F7AA6848" name="Inventario_Promociones_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>C1170A12-F1B4-2E51-4E5A-8DB82F7F9813</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6A78E33-8C17-0D94-38C6-C4B4D43E3F6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91976BCC-D1CA-E1F1-9E83-270A1AB79620" name="Inventario_Producto_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>4CE94958-D3DD-7CF8-3AC9-8613A6EB1E5E</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5C56CA5-9455-4A7C-13FC-82E63EDE0CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F75FFD95-B035-FE32-26A4-39625A06F4FD" name="Inventario_Proveedor_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>0757B0A4-6483-8F52-2FD1-83E6993DBC28</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14595C6C-F94B-FE8D-E427-641111449C3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC96D0BD-3CFC-D033-3806-B628F38B4F7A" name="Inventario_Tienda_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>57CB3CE0-FCF6-C675-105B-8CF9844FC751</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B00222AB-FB82-E87B-CA44-A4620CC4C62B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

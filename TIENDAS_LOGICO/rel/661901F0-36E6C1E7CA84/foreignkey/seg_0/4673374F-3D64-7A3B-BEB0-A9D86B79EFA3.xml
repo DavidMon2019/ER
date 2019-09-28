@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4673374F-3D64-7A3B-BEB0-A9D86B79EFA3" containerWithKeyObject="C641983D-55B9-2636-63F3-36BA92FC459B" localFKIndex="6A17AE25-79F0-EEEC-2917-8A099199641D" name="Ticked_Cambio_Devolucion_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>3BF728EF-2DBD-F284-FADA-7D9B673C2768</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<referredTableLongName>Cambio_Devolucion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43F2244E-B3D7-340C-AC9B-EEED2D34E757</referredTableID>
+<keyObject>0E93DC8D-C172-82C8-7B72-D3CA8871044B</keyObject>
+<referredKeyID>0E93DC8D-C172-82C8-7B72-D3CA8871044B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idDevolucion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

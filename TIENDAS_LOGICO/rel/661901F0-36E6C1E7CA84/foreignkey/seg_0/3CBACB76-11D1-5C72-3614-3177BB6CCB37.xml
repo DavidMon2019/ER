@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3CBACB76-11D1-5C72-3614-3177BB6CCB37" containerWithKeyObject="4B1216AB-32A3-0864-8F24-61E1F2961F99" localFKIndex="AE38C03E-344F-1606-02A5-B3C3093D6425" name="RVenta_TipoPago_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>64A06441-D069-573C-C817-E728147E8276</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<referredTableLongName>TipoPago</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5730549-D031-11B9-3489-5B9041B3FA9D</referredTableID>
+<keyObject>A87058CB-1EF6-D60B-A227-8FC7EDC14D36</keyObject>
+<referredKeyID>A87058CB-1EF6-D60B-A227-8FC7EDC14D36</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTipoPago</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

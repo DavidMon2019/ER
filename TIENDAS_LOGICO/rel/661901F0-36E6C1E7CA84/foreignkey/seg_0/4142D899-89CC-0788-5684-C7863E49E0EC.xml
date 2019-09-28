@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4142D899-89CC-0788-5684-C7863E49E0EC" containerWithKeyObject="C641983D-55B9-2636-63F3-36BA92FC459B" localFKIndex="E7A7B8A3-AA18-21B9-C8CB-1BF688AFCC1F" name="Ticked_Factura_FK">
+<createdBy>Misael</createdBy>
+<createdTime>2019-09-27 04:28:31 UTC</createdTime>
+<generatorID>73392D5B-5844-8944-B22B-43950002B003</generatorID>
+<ownerDesignName>TIENDAS_LOGICO</ownerDesignName>
+<referredTableLongName>Factura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD1ADEB1-8443-4BC4-2B29-20368CA857D8</referredTableID>
+<keyObject>27E5B08A-2863-A48A-93DC-119A104EA253</keyObject>
+<referredKeyID>27E5B08A-2863-A48A-93DC-119A104EA253</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idFcatura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
